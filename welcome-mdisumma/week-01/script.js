@@ -18,7 +18,11 @@ console.log ("course name" + COURSE);
 // operator & concatenation
 var a = 2;
 var b = 4;
+var c = b + "5";
 var sum = a*b;
+
+
+console.log ('4 + "5" = ' + c);
 
 console.log ("operators " + a + " * " + b + " = " + sum);
 
