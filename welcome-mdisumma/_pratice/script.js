@@ -10,4 +10,4 @@ console.log("this is myNumber " + myNumber)
 console.log("myNumber rounded " + Math.round(myNumber))
 console.log("refresh the page to change  the random number " + Math.random())
 
-//switch true and false
+// switch true and false

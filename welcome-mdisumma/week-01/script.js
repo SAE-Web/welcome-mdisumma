@@ -8,7 +8,7 @@ myVariable = 32;
 
 console.log ("the value of my variable is " + myVariable);
 
-//using let & const
+// using let & const
 let studentName = " Marco Di Summa"
 const COURSE = " JavaScript "
 
@@ -76,6 +76,6 @@ console.log(typeof typeOfBoolean);
 console.log ("var typeOfNull = null;");
 console.log(typeof typeOfNull);
 
-//undefined data (placeholder when a variable is not set)
+// undefined data (placeholder when a variable is not set)
 console.log("var typeOfUndefined; is " + typeof typeOfUndefined);
 
