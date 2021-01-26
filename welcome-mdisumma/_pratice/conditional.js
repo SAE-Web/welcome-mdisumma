@@ -26,3 +26,13 @@ if (a == b) {
 
 console.log ("the items match is " + match)
 
+let c = 6;
+let d = 6;
+
+if (a == b && c == d) {
+    console.log("both are equal")
+} else if (a == b || c == d) {
+    console.log("one of the two is true")
+} else {
+    console.log("they are all different")
+};
