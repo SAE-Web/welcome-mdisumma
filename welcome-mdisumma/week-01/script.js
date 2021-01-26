@@ -44,6 +44,15 @@ let secondValue = firstValue;
 console.log ("the value of firstValue is: " + firstValue);
 console.log ("the value of secondValue is: " + secondValue);
 
+// shorthand operator
+console.log(a = a + 4);
+console.log(a += 4);
+
+// unary operator
+console.log(a++);
+console.log(a++);
+console.log(a++);
+
 // Types of value (the = symbol assing a value to a variable)
 var typeOfNumber = 4;
 var typeOfString = "I am a string";
