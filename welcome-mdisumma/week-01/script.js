@@ -44,7 +44,7 @@ let secondValue = firstValue;
 console.log ("the value of firstValue is: " + firstValue);
 console.log ("the value of secondValue is: " + secondValue);
 
-// Types of value
+// Types of value (the = symbol assing a value to a variable)
 var typeOfNumber = 4;
 var typeOfString = "I am a string";
 var typeOfBoolean = false;
@@ -68,6 +68,5 @@ console.log ("var typeOfNull = null;");
 console.log(typeof typeOfNull);
 
 //undefined data (placeholder when a variable is not set)
-console.log ("var typeOfUndefined;");
-console.log(typeof typeOfUndefined);
+console.log("var typeOfUndefined; is " + typeof typeOfUndefined);
 
