@@ -2,7 +2,7 @@
 var myArray = [];
 console.log(myArray);
 
-var weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'friday', 'Saturday', 'Sunday'];
+var weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 console.log(weekDays);
 
