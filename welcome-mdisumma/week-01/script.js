@@ -19,8 +19,7 @@ console.log ("course name" + COURSE);
 var a = 2;
 var b = 4;
 var c = b + "5";
-var sum = a*b;
-
+var sum = a * b;
 
 console.log ('4 + "5" = ' + c);
 
