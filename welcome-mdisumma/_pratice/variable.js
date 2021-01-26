@@ -1,7 +1,7 @@
 // properties and method
 var myString = "This is my string";
 console.log(myString);
-console.log(myString + "lenght " +  myString.length);
+console.log(myString + " lenght " +  myString.length);
 console.log(myString.toUpperCase() + " in uppercase");
 
 // Math.
