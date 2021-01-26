@@ -5,12 +5,13 @@ console.log(emptyObject);
 // objects data
 
 var myData = {
-    label : null,    
     age : 42,
     state : true,
+    label : null,
     name : 'marco',
     surname : 'di summa',
     course : 'javaScript',
+    
 };
 console.log(myData);
 console.log(myData.name);
