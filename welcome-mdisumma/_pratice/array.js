@@ -7,7 +7,7 @@ var weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturda
 console.log(weekDays);
 console.log(weekDays[2]);
 
-//manipulate array
+// manipulate array
 var arrayOfThings = [ 0, 1, 2, 'string1', 'string2', true, false,];
 
 console.log(arrayOfThings);
