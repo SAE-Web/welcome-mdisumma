@@ -25,3 +25,11 @@ if (Math.abs(till1-startingPoint)==Math.abs(till2-startingPoint)) {
         console.log ("go to till number 1");
     }
 }
+
+// while loop
+numberOfCustomare = 4
+while (numberOfCustomare>0) {
+    numberOfCustomare--
+
+    console.log(numberOfCustomare + ' in the queue.');
+ }
