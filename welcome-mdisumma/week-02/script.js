@@ -1,4 +1,5 @@
-//defining the variables
+// control structure
+// defining the variables
 let startingPoint = 1;
 const till1 = -54;
 const till2 = 56;
@@ -14,7 +15,7 @@ if (till1-startingPoint<till2-startingPoint) {
 }
 
 
-//Math.abs returne the absolute value of a number
+// Math.abs returne the absolute value of a number
 if (Math.abs(till1-startingPoint)==Math.abs(till2-startingPoint)) {
     console.log ("hihter tills are good");
 } else {
