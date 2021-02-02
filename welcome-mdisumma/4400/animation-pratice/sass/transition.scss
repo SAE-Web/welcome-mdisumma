@@ -1,0 +1,46 @@
+body {
+    div.container#transition-container {
+        padding:10px;
+        min-height: 300px;
+        background-color: yellowgreen;
+        div.object#round-transition {
+            background-color:rgb(230, 0, 0);
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:relative;
+            left: 0px;
+            top:0px;
+            box-shadow: 0.5px 0.5px 1px black;
+
+            transition:
+            background-color 5s,
+            width 5s,
+            height 5s,
+            top 5s,
+            border 5s,
+            left 5s,
+            line-height 5s,
+            font-size 5s,
+            color 5s,
+            box-shadow 5s ease-out;
+        }
+    }
+    div.container:hover#transition-container{
+        div.object#round-transition {
+            background-color: rgb(249, 60, 60);
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 2em;
+            color: white;
+            border: 3px solid white;
+            left: 300px;
+            top:50px;
+            box-shadow: 15px 5px 50px black
+        }
+    }
+}

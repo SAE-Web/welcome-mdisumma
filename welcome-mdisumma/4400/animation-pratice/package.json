@@ -1,0 +1,10 @@
+{
+  "name": "transition-pratice",
+  "version": "1.0.0",
+  "description": "pratice file",
+  "scripts": {
+    "start":"sass sass/main.scss:css/style.css --watch"
+  },
+  "author": "marco Di Summa",
+  "license": "ISC"
+}

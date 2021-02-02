@@ -1,0 +1,64 @@
+div.container#transition-gallery {
+    width:300px;
+    height:500px;
+    background-color:grey;
+    div.rectangle {
+        font-size:100px;
+        text-align: end;
+        border:1px solid black;
+        width:300px;
+        height:500px;
+        position:absolute;
+        left: 20px;;
+
+        transition: 1s ease-out;
+    }
+    div.rectangle#place-1 {
+        background-color: rgb(250, 0, 25);
+        z-index: 4;
+       
+    }
+    div.rectangle#place-2 {
+        background-color: rgb(250,0,100);
+        z-index: 3;
+    
+    }
+    div.rectangle#place-3 {
+        background-color: rgb(250,0,175);
+        z-index: 1;
+      
+    }
+    div.rectangle#place-4 {
+        background-color: rgb(250,0,250);
+        z-index: 1;
+    
+    }
+}
+div.container#transition-gallery:hover {
+    div.rectangle {
+    left: 350px;
+    transition: 1s ease-in;
+    }
+    div.rectangle#place-1 {
+        
+        z-index: 1;
+        transition-delay:0s;
+    }
+    div.rectangle#place-2 {
+        
+        z-index: 2;
+        transition-delay:1s;
+    }
+    div.rectangle#place-3 {
+        
+        z-index: 3;
+        transition-delay:2s;
+    }
+    div.rectangle#place-4 {
+        
+        z-index: 4;
+        transition-delay:3s;
+        
+    }
+}
+

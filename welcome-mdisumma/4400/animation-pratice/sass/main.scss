@@ -1,0 +1,36 @@
+
+//transition
+@import "transition.scss";
+@import "timing.scss";
+@import "grid.scss";
+
+
+//transformation
+@import "transform.scss";
+@import "transform-origin.scss";
+@import "perspective.scss";
+
+//cards
+@import "gallery.scss";
+@import "cards.scss";
+//global
+
+nav 
+    ul {
+    display:flex;
+        li a {
+        color:red;
+        margin-right:1em;
+        }
+    }
+
+ul{
+    display:flex;
+        li {
+        margin-right:1em;
+        }
+    }
+div.container {
+    background-color: lightgrey
+}
+

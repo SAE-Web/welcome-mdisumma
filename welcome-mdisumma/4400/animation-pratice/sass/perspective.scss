@@ -1,0 +1,39 @@
+div.container#perspective {
+    display:flex;
+    flex-wrap:wrap;
+   
+    div.square{
+        text-align: center;
+        margin:30px;
+        background-color: rgb(174, 0, 255);
+        height:150px;
+        width:150px;
+
+        transition:all 1s;
+    }
+    div.square#perspective-rotateX-center:hover {
+        transform: perspective(600px) rotateX(50deg);
+        transform-origin: center;
+    }
+    div.square#perspective-rotateY-center:hover {
+        transform: perspective(600px) rotateY(50deg);
+        transform-origin: center;
+    }
+    div.square#perspective-rotateX-top:hover {
+        transform: perspective(600px) rotateX(50deg);
+        transform-origin: top;
+    }
+    div.square#perspective-rotateY-left:hover {
+        transform: perspective(600px) rotateY(50deg);
+        transform-origin: left top;
+    }
+    div.square#perspective-rotateZ:hover {
+        transform: perspective(600px) rotateY(50deg) rotateZ(10deg); 
+        transform-origin: center;
+    }
+    div.square#perspective-3d:hover {
+        transform: perspective(600px) translate3d(50px,-0px,-100px);
+        transform-origin: center;
+    }
+    
+}
