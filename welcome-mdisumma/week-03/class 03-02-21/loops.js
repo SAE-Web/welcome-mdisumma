@@ -1,23 +1,26 @@
+let shippingList = ["eggs","broccoli","milk","sugar"]
+
+
 //for loop
-for (let index = 0; index < shippinglist.length; index++){
+for (let index = 0; index < shippingList.length; index++){
     console.log("for loops");
-    console.log(shippinglist[index]);
+    console.log(shippingList[index]);
 }
 
 //.forEach loop
-shippinglist.forEach(shippinglist => {
+shippingList.forEach(shippingList => {
     console.log(".forEach loop");
-    console.log(`current item ${shippinglist}`),
- console.log(shippinglist);
+    console.log(`current item ${shippingList}`),
+ console.log(shippingList);
 })
 
 //for loop
-for (const items of shippinglist) {
-    console.log(`the current item is ${shippinglist}`);
+for (const items of shippingList) {
+    console.log(`the current item is ${shippingList}`);
 }
 
 let myCheckField = document.getElementsByClassName("listCheck")[0];
-for (let i = 0; i < shippinglist.length; i++) { 
-myCheckField.innerHTML = `<li> ${shippinglist} </li> `
+for (let i = 0; i < shippingList.length; i++) { 
+myCheckField.innerHTML = `<li> ${shippingList} </li> `
 }
         
