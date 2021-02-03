@@ -1,10 +1,10 @@
-//Challenge
+//Challenge 1
 let timer = 60;
 while (timer>0) {
     timer--
 
     console.log(timer);
- } 
+} 
 console.log("\"times's up!.\"" );
  
 //Challenge 2
